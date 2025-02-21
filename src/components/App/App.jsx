@@ -10,7 +10,7 @@ console.log(userData);
 
 export default function App() {
   return (
-    <>
+    <div className={css.container}>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -22,6 +22,6 @@ export default function App() {
         views={userData.stats.views}
         likes={userData.stats.likes}
       />
-    </>
+    </div>
   );
 }
