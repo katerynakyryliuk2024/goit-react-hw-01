@@ -14,6 +14,9 @@
   flex: 1;
   border-left: 2px solid gray;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .part:first-child {
   border-left: none;
