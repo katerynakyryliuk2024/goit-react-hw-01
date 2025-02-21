@@ -18,11 +18,11 @@ const BookList = ({ books }) => {
   );
 };
 
-export default function App () => {
+export default function App() {
   return (
     <>
       <h1>Books of the week</h1>
       <BookList books={favBooks} />
     </>
   );
-};
+}
