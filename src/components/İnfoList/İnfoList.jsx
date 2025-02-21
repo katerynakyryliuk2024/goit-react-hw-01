@@ -4,16 +4,15 @@ export default function İnfoList({ followers, views, likes }) {
   return (
     <div>
       <ul className={css.section}>
-        <li>
+        <li className={css.part}>
           <span>Followers</span>
           <span>{followers}</span>
         </li>
-        <li>
+        <li className={css.part}>
           <span>Views</span>
           <span>{views}</span>
         </li>
-
-        <li>
+        <li className={css.part}>
           <span>Likes</span>
           <span>{likes}</span>
         </li>

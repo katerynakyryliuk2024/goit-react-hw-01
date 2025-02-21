@@ -9,3 +9,10 @@
   left: 0;
   border-radius: 15px;
 }
+.part {
+  flex: 1;
+  border-left: 2px solid gray;
+}
+.part:first-child {
+  border-left: none;
+}
