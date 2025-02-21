@@ -13,6 +13,7 @@
 .part {
   flex: 1;
   border-left: 2px solid gray;
+  text-align: center;
 }
 .part:first-child {
   border-left: none;
