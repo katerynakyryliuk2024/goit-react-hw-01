@@ -3,7 +3,7 @@ import css from "./İnfoList.module.css";
 export default function İnfoList({ followers, views, likes }) {
   return (
     <div>
-      <ul>
+      <ul className={css.section}>
         <li>
           <span>Followers</span>
           <span>{followers}</span>
