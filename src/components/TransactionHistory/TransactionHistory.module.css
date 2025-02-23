@@ -4,7 +4,7 @@
   width: 400px;
   height: 500px;
   border: 1px solid black;*/
-  width: 100%;
+  width: 600px;
   border-collapse: collapse;
   margin: 0 auto;
   text-align: center;
@@ -14,7 +14,14 @@
 }
 .head {
   text-transform: uppercase;
+  background-color: black;
+  color: whitesmoke;
 }
 .cell {
   border: 1px solid black;
+  padding: 10px 15px;
+}
+.line:nth-child(even) {
+  background-color: lightgray;
+  font-weight: 600;
 }

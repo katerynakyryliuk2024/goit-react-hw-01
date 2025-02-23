@@ -13,12 +13,13 @@ export default function TransactionHistory({ items }) {
 
       <tbody className={css.formBody}>
         {items.map((item) => {
-          console.log(item);
-          <tr key={item.id}>
-            <td className={css.cell}>{item.type}</td>
-            <td>{item.amount}</td>
-            <td>{item.currency}</td>
-          </tr>;
+          return (
+            <tr className={css.line} key={item.id}>
+              <td className={css.cell}>{item.type}</td>
+              <td className={css.cell}>{item.amount}</td>
+              <td className={css.cell}>{item.currency}</td>
+            </tr>
+          );
         })}
       </tbody>
     </table>
