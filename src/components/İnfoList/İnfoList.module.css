@@ -12,7 +12,7 @@
 }
 .part {
   flex: 1;
-  border-left: 2px solid gray;
+  border-left: 2px solid green;
   text-align: center;
   display: flex;
   flex-direction: column;
