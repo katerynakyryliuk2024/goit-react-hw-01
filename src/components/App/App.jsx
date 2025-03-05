@@ -6,8 +6,7 @@ import FriendList from "../FriendList/FriendList";
 import friends from "../friends.json";
 import TransactionHistory from "../TransactionHistory/TransactionHistory";
 import transactions from "../transactions.json";
-
-console.log(userData);
+import Work from "../Work/Work";
 
 export default function App() {
   return (
@@ -21,6 +20,11 @@ export default function App() {
         views={userData.stats.views}
         likes={userData.stats.likes}
       />
+      <>
+        <p>Selected language: </p>
+        <Work />
+      </>
+
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
